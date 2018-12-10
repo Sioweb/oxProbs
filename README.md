@@ -33,7 +33,19 @@ An integrated module loader allows you to create and add our own reports without
 
 For detailed information, please read the [Wiki](https://github.com/job963/oxProbs/wiki) (English / Deutsch).
 
+### Attantion: New install path for custom scripts
 
+New Path is now `/source/Application/oxprobs/`
+
+Here u can add five folders:
+
+- articles
+- user
+- orders
+- delivery
+- pictures
+
+No need to use a special filename, all php files inside those folders will be automatically used in backend.   
 
 ### Install via Composer (Path repository)
 
