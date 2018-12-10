@@ -1,0 +1,29 @@
+{
+  "name": "job963/healthcheck",
+  "description": "Analysis module for finding problematical shop data.",
+  "type": "oxideshop-module",
+  "keywords": [
+    "oxid",
+    "modules",
+    "admin",
+    "healthcheck"
+  ],
+  "homepage": "https://github.com/job963/oxProbs",
+  "license": [
+    "GNU"
+  ],
+  "version": "0.10.0",
+  "extra": {
+    "oxideshop": {
+      "blacklist-filter": [
+        "docs/**/*.*"
+      ],
+      "target-directory": "jx/HealthCheck"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Job963\\Oxid\\HealthCheck\\": "../../../source/modules/jx/HealthCheck/"
+    }
+  }
+}
